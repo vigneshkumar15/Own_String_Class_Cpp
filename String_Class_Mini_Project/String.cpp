@@ -243,9 +243,7 @@ void strcat(String &s2, const String &s1)
         n2++;
 
     char *temp = new char[n1 + n2 + 1];
-
     int i;
-
     for(i = 0; i < n1; i++)
         temp[i] = s2.p[i];
 
@@ -345,14 +343,12 @@ char* strstr(String &s1, const char *sub)
     {
         int j = 0;
 
-        while(sub[j] != '\0' && s1.p[i + j] == sub[j])
-            j++;
-
-        if(sub[j] == '\0')
+     while(sub[j] != '\0' && s1.p[i + j] == sub[j])
+    j++;
+    if(sub[j] == '\0')
             return &s1.p[i];
     }
-
-    return 0;
+return 0;
 }
 
 int strlen(const String &s1)
