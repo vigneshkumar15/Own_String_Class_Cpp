@@ -1,0 +1,28 @@
+s1 =
+s2 = Hello
+s3 = Hello
+s4 = Hello
+s6 = Hello World
+s2[1] = e
+s2 = hello
+a > b = 0
+a < b = 1
+a >= b = 0
+a <= b = 1
+a == b = 0
+a != b = 1
+Enter a string: Bangalore
+input = Bangalore
+strcpy = Hello
+strncpy = Wor
+strcmp = -1
+strncmp = -1
+strcat = HelloWorld
+strncat = HelloWor
+strrev = olleH
+strupr = HELLO
+strlwr = hello
+strchr = llo
+strrchr = lo
+strstr = World
+strlen = 11
