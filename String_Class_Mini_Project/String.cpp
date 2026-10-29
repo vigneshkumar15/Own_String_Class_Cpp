@@ -30,7 +30,6 @@ public:
         for(int i = 0; i <= n; i++)
             p[i] = s.p[i];
     }
-
 String& operator=(const String &s)
     {
         if(this != &s)
@@ -46,7 +45,7 @@ String& operator=(const String &s)
         }
         return *this;
     }
-    String operator+(const String &s)
+String operator+(const String &s)
     {
         String temp;
 
